@@ -22,25 +22,17 @@ void sum_pair() {
     (void)total;
 }
 
-void is_prime() {
-    int n = 97;
-    bool prime = (n > 1);
-    for (int d = 2; d * d <= n; ++d) {
-        if (n % d == 0) { prime = false; break; }
-    }
-    (void)prime;
-}
-
 extern "C" int clever_ember();
-extern "C" void misty_lantern();
-extern "C" void subtle_cove();
+extern "C" void cedar_haven();
+extern "C" void misty_prism();
+extern "C" void subtle_canyon();
 
 int main() {
     count_zeros();
     balanced_sum();
     sum_pair();
-    is_prime();
-    misty_lantern();
-    subtle_cove();
+    cedar_haven();
+    misty_prism();
+    subtle_canyon();
     return clever_ember();
 }
